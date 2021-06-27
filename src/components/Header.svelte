@@ -1,10 +1,10 @@
 <script lang="ts">
+    import Logo from "./Logo.svelte";
 </script>
 
 <header>
-    hej
+    <Logo />
 </header>
 
 <style lang="scss">
-    @import '../colors.scss';
 </style>

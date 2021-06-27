@@ -1,5 +1,5 @@
-import Router from './routes/index.svelte';
+import Router from "./routes/index.svelte";
 
 export default new Router({
-	target: document.body
+    target: document.body,
 });
