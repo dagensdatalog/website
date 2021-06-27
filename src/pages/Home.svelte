@@ -6,12 +6,12 @@
 <Header />
 <main>Home</main>
 
-{#await GetImage() then [resp, err]}
-    {#if err}
-        <p>Error {err}</p>
-    {:else}
-        <p>Response {resp.image}</p>
-    {/if}
+{#await GetImage()}
+    <p>Loading...</p>
+{:then resp}
+    <p>Response {resp.image}</p>
+{:catch e}
+    <p>Error {e}</p>
 {/await}
 
 <style lang="scss">
