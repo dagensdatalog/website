@@ -1,0 +1,8 @@
+*
+!nginx/*
+!rollup.config.js
+!tsconfig.json
+!package.json
+!yarn.lock
+!src
+!public
