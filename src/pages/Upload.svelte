@@ -3,7 +3,7 @@
 </script>
 
 <Header />
-<main>Upload</main>
+<section>Upload</section>
 
 <style lang="scss">
 </style>

@@ -3,7 +3,7 @@
 </script>
 
 <Header />
-<main>Admin</main>
+<section>Admin</section>
 
 <style lang="scss">
 </style>

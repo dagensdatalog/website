@@ -1,11 +1,39 @@
 html, body {
-	width: 100%;
 	height: 100%;
-	
-	margin: 0;
-	padding: 0;
+
+	margin: 0px;
+	padding: 0px;
 
 	background-color: #080808;
+	color: #aaa;
 
+	font-family: monospace;
+}
+
+main {
+	padding: 32px;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
 	color: #fff;
 }
+
+@media screen and (max-width: 650px) {
+	.hide-mobile {
+	  visibility: hidden;
+	  display: none;
+	}
+  }
+  @media screen and (min-width: 651px) {
+	.hide-desktop {
+	  visibility: hidden;
+	  display: none;
+	}
+  }

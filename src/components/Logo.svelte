@@ -31,7 +31,7 @@
     ];
 
     function getSlogan(): string {
-        return slogans[Math.floor(Math.random() * slogans.length)]
+        return slogans[Math.floor(Math.random() * slogans.length)];
     }
 </script>
 
