@@ -4,12 +4,10 @@
     import Admin from "../pages/Admin.svelte";
     import Documentation from "../pages/Documentation.svelte";
     import Upload from "../pages/Upload.svelte";
-
-    export let url = "";
 </script>
 
 <main>
-    <Router {url}>
+    <Router>
         <Route path="/" component={Home} />
         <Route path="/admin" component={Admin} />
         <Route path="/upload" component={Upload} />
