@@ -4,6 +4,3 @@
 
 <Header />
 <section>Admin</section>
-
-<style lang="scss">
-</style>

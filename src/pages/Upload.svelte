@@ -4,6 +4,3 @@
 
 <Header />
 <section>Upload</section>
-
-<style lang="scss">
-</style>

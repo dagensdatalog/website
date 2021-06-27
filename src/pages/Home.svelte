@@ -14,6 +14,3 @@
         <p>Error {e}</p>
     {/await}
 </section>
-
-<style lang="scss">
-</style>
